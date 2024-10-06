@@ -7,14 +7,14 @@ import { IoIosReturnRight } from "react-icons/io";
 const Home = () => {
   return (
     <div
-      style={{
-        background:
-          "radial-gradient(ellipse at 50% 0%, rgba(0, 0, 0, .23),transparent ),radial-gradient(ellipse at 50% 0%, rgba(39, 39, 39, 1), rgba(29, 28, 28, 0.28) 50%, #272727 100%,transparent)",
-      }}
-      className="max-w-screen-2xl mx-auto h-full "
+    //   style={{
+    //     background:
+    //       "radial-gradient(ellipse at 50% 0%, rgba(0, 0, 0, .23),transparent ),radial-gradient(ellipse at 50% 0%, rgba(39, 39, 39, 1), rgba(29, 28, 28, 0.28) 50%, #272727 100%,transparent)",
+    //   }}
+      className="relative max-w-screen-2xl mx-auto h-screen overflow-y-auto "
     >
-      <Navbar />
-      <div className=" grid gap-20">
+      
+      <div className=" grid gap-20 mt-52 ">
         <Hero ishome={true} iscontact={true} />
 
         <svg

@@ -1,26 +1,27 @@
 import React from "react";
 import Hero from "./hero";
 import Navbar from "./navbar";
+import Footer from "./footer";
 import { Link } from "react-router-dom";
 import { IoIosReturnRight } from "react-icons/io";
 import People from "./People";
 const About = () => {
   return (
     <div
-      style={{
-        background:
-          " radial-gradient(101.32% 101.32% at 53.02% 0%, #272727 0%, rgba(29, 28, 28, 0.28) 50%, #272727 100%)",
-      }}
-      className="max-w-screen-2xl mx-auto h-full "
+    //   style={{
+    //     background:
+    //       "radial-gradient(ellipse at 50% 0%, rgba(0, 0, 0, .23),transparent ),radial-gradient(ellipse at 50% 0%, rgba(39, 39, 39, 1), rgba(29, 28, 28, 0.28) 50%, #272727 100%,transparent)",
+    //   }}
+      className="max-w-screen-2xl mx-auto h-screen overflow-auto pt-52"
     >
-      <Navbar />
+      
 
       <Hero isabout={true} touch={true} isscroll = {true}/>
 
       <div
         style={{
           background:
-            " radial-gradient(244.59% 222.87% at 50% 18.08%, rgba(46, 46, 46, 0.50) 17.21%, rgba(255, 255, 255, 0.25) 100%)",
+            " radial-gradient(244.59% 222.87% at 50% 18.08%, rgba(10, 10, 10, 0.30) 17.21%, rgba(255, 255, 255, 0.25) 100%)",
         }}
         className="max-w-full px-16 py-10 rounded-t-3xl mt-20"
       >
@@ -93,6 +94,7 @@ const About = () => {
         </div>
       </div>
       <People/>
+      <Footer/>
     </div>
   );
 };

@@ -55,7 +55,7 @@ const Hero = ({
             alt=""
           />
           <svg
-            className="absolute top-0 right-0 blur-[1px]"
+            className="absolute top-0 right-0 scale-75"
             width="256"
             height="38"
             viewBox="0 0 256 38"
@@ -88,7 +88,7 @@ const Hero = ({
             />
           </svg>
           <svg
-            className="absolute bottom-0 right-[-1rem] blur-[1px]"
+            className="absolute bottom-0 right-[-1rem] scale-75"
             width="147"
             height="174"
             viewBox="0 0 147 174"
@@ -371,7 +371,7 @@ const Hero = ({
             </div>
           )}
           {isservice && (
-            <div className="my-20 py-20 w-full">
+            <div className=" py-20 w-full">
               <h1 className="text-[5rem] font-semibold">
                 {" "}
                 <span className="font-[ranga] font-bold text-[#EE6464]">

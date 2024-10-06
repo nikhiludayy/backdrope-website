@@ -12,8 +12,8 @@ const navbar = () => {
     setIsDropdownOpen(false);
   };
   return (
-    <div className="relative max-w-screen mx-auto bg-[#1F1F1F]/[.5]  backdrop-blur-md px-12 py-5 rounded-b-[30px] z-[999]">
-      <div className="flex items-center justify-between">
+    <div className="navbar fixed  w-full mx-auto bg-[#1F1F1F]/[.5]  backdrop-blur-md px-12 py-5 rounded-b-[30px] z-[999]">
+      <div className=" flex items-center justify-between">
         <div className="hidden max-sm:w-[2.3rem] max-sm:block">
           <Link to="/">
             {" "}
@@ -34,7 +34,7 @@ const navbar = () => {
             />
           </Link>
         </div>
-        <div className="text-[#dadada] font-semibold flex gap-5 items-center">
+        <div className="text-[#dadada] font-semibold flex gap-5 items-center p-3">
           <Link to="/">Home</Link>
 
           <div
@@ -47,8 +47,8 @@ const navbar = () => {
             </Link>
 
             {isDropdownOpen && (
-              <div className="absolute  top-1 mt-2 left-0  p-3 pt-10 rounded-md shadow-lg">
-                <ul className="w-40 flex flex-col px-2 py-1 gap-4 ">
+              <div className="absolute  top-1 mt-2 -left-10  p-3 pt-5 ">
+                <ul className="w-52 flex flex-col px-4 py-3 gap-5 bg-[#333]/80 shadow-lg rounded-md  ">
                   <li>
                     <Link to="/photo&videos" className="hover:text-white">
                       Photography & Videography

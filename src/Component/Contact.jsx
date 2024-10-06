@@ -1,16 +1,17 @@
 import React from "react";
 import Hero from "./hero";
 import Navbar from "./navbar";
+import Footer from "./footer";
 const Contact = () => {
   return (
     <div
-      style={{
-        background:
-          "radial-gradient(ellipse at 50% 0%, rgba(0, 0, 0, .23),transparent ),radial-gradient(ellipse at 50% 0%, rgba(39, 39, 39, 1), rgba(29, 28, 28, 0.28) 50%, #272727 100%,transparent)",
-      }}
-      className="max-w-screen-2xl mx-auto h-full "
+    //   style={{
+    //     background:
+    //       "radial-gradient(ellipse at 50% 0%, rgba(0, 0, 0, .23),transparent ),radial-gradient(ellipse at 50% 0%, rgba(39, 39, 39, 1), rgba(29, 28, 28, 0.28) 50%, #272727 100%,transparent)",
+    //   }}
+      className="max-w-screen-2xl mx-auto h-screen overflow-auto pt-52 "
     >
-      <Navbar />
+      
       <Hero iscontactt={true}/>
       <div className=" px-24 py-16 flex justify-center items-center">
         <h1 className="text-[2rem] font-bold text-center leading-tight">
@@ -24,6 +25,7 @@ const Contact = () => {
             <span className="text-[#EE6464]">creativity</span>.
           </h1>
         </div>
+        <Footer />
     </div>
   );
 };

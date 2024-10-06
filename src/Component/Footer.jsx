@@ -11,7 +11,7 @@ import {
 
 const footer = () => {
   return (
-    <div className="max-w-screen mx-auto bg-[#1F1F1F]/[.5] flex flex-col items-center justify-between gap-3 backdrop-blur-2xl px-[4rem] py-[3rem] rounded-t-[20px] font-[raleway]">
+    <div className="max-w-screen mx-auto mt-20 bg-[#1F1F1F]/[.5] flex flex-col items-center justify-between gap-3 backdrop-blur-2xl px-[4rem] py-[3rem] rounded-t-[20px] font-[raleway]">
       <div className="w-full flex  items-center justify-between">
         <div className="w-[20rem]">
           <img
